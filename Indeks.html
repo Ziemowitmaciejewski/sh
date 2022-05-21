@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularz1</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="nag1">Index</div>
+		<div class="nag2">
+			<div class="form2"><a href="Form6.html">Form6</a></div>
+			<div class="form2"><a href="Form5.html">Form5</a></div>
+			<div class="form2"><a href="Form4.html">Form4</a></div>
+			<div class="form2"><a href="Form3.html">Form3</a></div>
+			<div class="form2"><a href="Form2.html">Form2</a></div>
+			<div class="form1"><a href="index.html">Form1</a></div>
+		</div>
+		<div>
+			<table class="tablenborder"><tr><th>
+				<p><b class="b1">Formularz kontaktowy</b></p>
+				<form action = "Script URL" method = "POST">
+					<p>Nazwisko: <br> <input class="curve-text" type="text" name="Nazwisko"> </p>
+					<p>Imię: <br> <input class="curve-text" type="text" name="imie"></p>
+					<p>Wykształcenie: <br>
+						<font class="radio">
+							<input type="radio" name="wyksztalcenie" value="podstawowe" checked id="pod"><label for="pod">podstawowe</label> <br>
+							<input type="radio" name="wyksztalcenie" value="średnie" id="sre"><label for="sre">średnie</label><br>
+							<input type="radio" name="wyksztalcenie" value="wyższe" id="wyz"><label for="wyz">wyższe</label><br>
+						</font><br><br><br>
+					</p>
+					<p>
+						W jakim języku programujesz? <br>
+						<font class="radio">
+							<input type="checkbox" name="jezyk" value="on" id="rad1"><label for="rad1">C++</label><br>
+							<input type="checkbox" name="jezyk" value="on" id="rad2"><label for="rad2">JavaScript</label><br>
+							<input type="checkbox" name="jezyk" value="on" id="rad3"><label for="rad3">PHP</label><br>
+							<input type="checkbox" name="jezyk" value="on" id="rad4"><label for="rad4">Java</label><br>
+							<input type="checkbox" name="jezyk" value="on" id="rad5"><label for="rad5">Python</label><br>
+						</font><br><br><br><br><br>
+					</p>
+					<p><input type="checkbox" name="dane" value="on" id="dane"><label for="dane">Zgadzam się na przetwarzanie danych osobowych</label><br></p>
+					<p>
+						<select class="curve-text" name="dropdown">
+							<option value="0-17" selected>0-17</option>
+							<option value="17-30">17-30</option>
+							<option value="30-60">30-60</option>
+							<option value="powyżej 60">powyżej 60</option>
+						</select>
+					</p>
+					<p>Uwagi: <br> <textarea class="curve-textarea" rows = "5" cols = "50" name = "Uwagi">Tutaj wpisz swoje uwagi:</textarea></p>
+					<p><div><div class="buttons"><input type="submit" name="wyslij"></div><div class="buttons"><input type="reset" name="wyczysc"></div></div></p>
+				</form>
+			</th></tr></table>
+		</div>
+		<div>
+			<footer>Ziemowit Maciejewski</footer>
+		</div>
+	</div>
+</body>
+</html>

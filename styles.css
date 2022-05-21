@@ -1,0 +1,124 @@
+body {
+    background: #CD88AF;
+    color: #661141;
+    font-family: Italic;
+    text-align: center;
+    vertical-align: middle;
+}
+
+select {
+    width: 200px;
+}
+
+footer {
+    background-color: #661141;
+    font-size: 25px;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#CD88AF;
+}
+
+.container {
+    height: auto;
+}
+
+.nag1 {
+    background-color: #661141;
+    width: 15%;
+    color:#CD88AF;
+    float: left;
+    font-size: 31px;
+    text-align: left;
+}
+
+.nag2 {
+    background-color: #661141;
+    width: 85%;;
+    color:#CD88AF;
+    float: left;
+}
+
+.form1 {
+    background-color: #CD88AF;
+    float: right;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 4px;
+}
+
+.form2 {
+    background-color: #CD88AF;
+    float: right;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 4px;
+    color:#661141;
+}
+
+.tablenborder {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.radio {
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
+.buttons {
+    background-color: #CD88AF;
+    border-radius: 25px;
+    margin: auto auto 2px auto;
+    padding: 8px;
+    width: 60px;
+}
+.b1 {
+    font-size: 25px;
+}
+
+.b2 {
+    font-size: 20px;
+}
+#border1 {
+    border: 3px solid #661141;
+    padding: 5px;
+    margin: auto auto auto 0px;
+    float:left;
+    height: 150px;
+    width:200px;
+}
+
+#border2 {
+    border: 3px solid #661141;
+    padding: 5px;
+    margin: auto auto auto 0px;
+    float: left;
+    height: 40px;
+    width:228px;
+}
+.fieldset {
+    padding: 4px;
+    margin: auto auto auto 0px;
+    float: left;
+}
+
+.left {
+    margin: auto 5px auto auto;
+    border-radius: 25px;
+    border: 1px solid white;
+    top: 50%;
+    left: 50%;
+}
+.slider {
+  width: 100%;
+  height: 15px;
+  border-radius: 25px;
+  background: #d3d3d3;
+  outline: none;
+}
+
+
+

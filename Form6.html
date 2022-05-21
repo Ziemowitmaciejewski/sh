@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularz6</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div>
+		<div class="nag1">Formularze</div>
+		<div class="nag2">
+			<div class="form2"><a href="Form6.html">Form6</a></div>
+			<div class="form2"><a href="Form5.html">Form5</a></div>
+			<div class="form2"><a href="Form4.html">Form4</a></div>
+			<div class="form2"><a href="Form3.html">Form3</a></div>
+			<div class="form1"><a href="Form2.html">Form2</a></div>
+			<div class="form2"><a href="index.html">Form1</a></div>
+		</div>
+	</div>
+	<div>
+		<table class="tablenborder">
+			<form action = "Script URL" method = "POST">
+				<tr >
+					<th id="border1">
+						<p class="fieldset">
+							Nazwisko: 
+							<input class="left" type="text" name="nazwisko"> <br>
+						</p><br>
+						<p class="fieldset">
+							Imię: 
+							<input class="left" type="text" name="imie">
+						</p>
+						<br>
+						<p class="fieldset">
+							PESEL:
+							<input class="left" type="text" name="pesel">
+						</p>
+					</th>
+					<th id="border1">
+						<p class="fieldset">
+							<input type="checkbox" name="Jpol" id="JL"><label for="JL">J. polski</label><br>
+						</p><br>
+						<p class="fieldset">
+							<input type="checkbox" name="Mat" id="M"><label for="M">Matematyka</label><br>
+						</p><br>
+						<p class="fieldset">
+							<input type="checkbox" name="fiz" id="F"><label for="F">Fizyka</label>
+						</p>
+					</th>
+					<th id="border1">
+						Uwagi: <br>
+						<textarea class="curve-textarea"></textarea>
+					</th>
+				</tr>
+				<tr>
+					<th id="border2" style="width: 270px;"></th>
+					<th id="border2">
+						<p>
+							<select class="curve-text" name="dropdown">
+								<option value="pon" selected>Poniedziałek</option>
+								<option value="wto">Wtorek</option>
+								<option value="sro">Środa</option>
+								<option value="czw">Czwartek</option>
+								<option value="pia">Piątek</option>
+								<option value="sob">Sobota</option>
+								<option value="nie">Niedziela</option>
+							</select>
+						</p>
+					</th>
+					<th id="border2" style="width: 104.5px;"></th>
+				</tr>
+				<tr>
+					<th>
+						<p><div><div class="buttons"><input type="submit" name="wyslij"></div><div class="buttons"><input type="reset" name="wyczysc"></div></div></p>
+					</th>
+				</tr>
+			</form>
+		</table>
+		<div>
+			<footer>Ziemowit Maciejewski</footer>
+		</div>
+	</div>
+</body>
+</html>
